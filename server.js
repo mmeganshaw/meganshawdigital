@@ -1,0 +1,13 @@
+const express = require("express");
+
+const app = express();
+
+const PORT = process.env.PORT || 5000;
+
+app.use(expres.static(__dirname + "/public"));
+
+require("./routes/index.js")(app);
+
+app.listen(PORT, function () {
+    console.log("Server listening on port" + PORT)
+})

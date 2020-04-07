@@ -1,0 +1,122 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-home {
+    padding: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    float: left;
+    color: black;
+}
+
+.nav-right {
+    padding: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    float: right;
+    color: black;
+}
+
+.mobile-nav {
+    padding: 1rem;
+    color: black;
+}
+
+.header-image {
+    padding-top: 5rem;
+}
+
+.borders {
+    margin-top: 7rem;
+}
+
+.border-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.how-help {
+    padding-top: 3rem;
+}
+
+.card-1 {
+    background: rgb(255, 57, 93);
+    background: linear-gradient(90deg, rgba(255, 57, 93, 1) 0%, rgba(250, 122, 87, 1) 100%);
+    border-radius: 10px;
+    padding: 2rem;
+    font-family: 'Oswald', 'sans-serif';
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    width: 70%;
+}
+
+.card-2 {
+    background: rgb(250, 122, 87);
+    background: linear-gradient(90deg, rgba(250, 122, 87, 1) 0%, rgba(253, 162, 49, 1) 100%);
+    border-radius: 10px;
+    padding: 2rem;
+    font-family: 'Oswald', 'sans-serif';
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    width: 70%;
+}
+
+.card-3 {
+    background: rgb(253, 158, 53);
+    background: linear-gradient(90deg, rgba(253, 158, 53, 1) 0%, rgba(253, 195, 44, 1) 100%);
+    border-radius: 10px;
+    padding: 2rem;
+    font-family: 'Oswald', 'sans-serif';
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    width: 70%;
+}
+
+.card-4 {
+    background: rgb(253, 195, 44);
+    background: linear-gradient(90deg, rgba(253, 195, 44, 1) 0%, rgba(253, 210, 39, 1) 100%);
+    border-radius: 10px;
+    padding: 2rem;
+    font-family: 'Oswald', 'sans-serif';
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    width: 70%;
+}
+
+.card-5 {
+    background: rgb(253, 210, 39);
+    background: linear-gradient(90deg, rgba(253, 210, 39, 1) 0%, rgba(230, 222, 78, 1) 100%);
+    border-radius: 10px;
+    padding: 2rem;
+    font-family: 'Oswald', 'sans-serif';
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    width: 70%;
+}
+
+.card-6 {
+    background: rgb(231, 221, 76);
+    background: linear-gradient(90deg, rgba(231, 221, 76, 1) 0%, rgba(201, 221, 45, 1) 100%);
+    border-radius: 10px;
+    padding: 2rem;
+    font-family: 'Oswald', 'sans-serif';
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    width: 70%;
+}
+
+.footer-1 {
+    margin-top: 3rem;
+    position: relative;
+    background: url('../images/footer-1-06.png') no-repeat center center/cover;
+}

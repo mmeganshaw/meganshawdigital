@@ -28,19 +28,21 @@
 <body>
 
     <!-- nav -->
-    <div class="nav show-on-large-only hide-on-med-and-down">
-        <span class="nav-home">
-            <a href="/" style="color: black;">HOME</a>
-        </span>
-        <span class="nav-right">
-            <a href="/contact" style="color: black;">CONTACT</a>
-        </span>
-        <span class="nav-right">
-            <a href="/blog" style="color: black;">BLOG</a>
-        </span>
-        <span class="nav-right">
-            <a href="/portfolio" style="color: black;">PORTFOLIO</a>
-        </span>
+    <div style="overflow: auto;">
+        <div class="nav show-on-large-only hide-on-med-and-down" style=" background: white; color: black;">
+            <span class="nav-home">
+                <a href="/" style="color: black;">HOME</a>
+            </span>
+            <span class="nav-right">
+                <a href="/contact" style="color: black;">CONTACT</a>
+            </span>
+            <span class="nav-right">
+                <a href="/about" style="color: black;">ABOUT</a>
+            </span>
+            <span class="nav-right">
+                <a href="/portfolio" style="color: black;">PORTFOLIO</a>
+            </span>
+        </div>
     </div>
 
     <!-- mobile nav callout -->
@@ -59,7 +61,7 @@
     <ul id="slide-out" class="sidenav">
         <li><a href="/"><i class="material-icons">home</i>Home</a></li>
         <li><a href="/portfolio"><i class="material-icons">palette</i>Portfolio</a></li>
-        <li><a href="/blog"><i class="material-icons">create</i>Blog</a></li>
+        <li><a href="/about"><i class="material-icons">create</i>About</a></li>
         <li><a href="/contact"><i class="material-icons">chat</i>Contact</a></li>
 
         <li>
@@ -69,101 +71,71 @@
     </ul>
 
     <!-- header -->
-    <div class="container center">
-        <img class="responsive-img header-image" src="images/Megan-Shaw-Digital.png" alt="">
+    <!-- <div class="header-1">
+        <h1 class="header-text-desktop show-on-large-only hide-on-med-and-down" style="color: white;">PORTFOLIO</h1>
+        <h1 class="header-text-tablet show-on-medium hide-on-large-only hide-on-small-only" style="color: white;">
+            PORTFOLIO</h1>
+        <h1 class="header-text-mobile show-on-small-only hide-on-med-and-up" style="color: white;">PORTFOLIO</h1>
+    </div> -->
+
+    <div class="show-on-large-only hide-on-med-and-down">
+        <img src="images/desktop.png" alt="" class="responsive-img">
     </div>
 
-    <!-- two-part below headerr -->
+    <div class="show-on-medium hide-on-large-only hide-on-small-only">
+        <img src="images/portfolio-tablet.png" class="responsive-img" alt="">
+    </div>
+
+    <div class="show-on-small-only hide-on-med-and-up">
+        <img src="images/portfolio-mobile.png" class="responsive-img" alt="">
+    </div>
+
+
+    <!-- two part lead gen + content writing -->
 
     <div class="container">
-        <div class="section">
-            <div class="row borders">
-                <div class="col s12 l6">
-                    <img class="responsive-img" src="images/borders.png" alt="">
+        <div class="section" style="color: #6E7ECB;">
+            <div class="row">
+                <div class="col m12 l6 center">
+                    <img src="images/portfolio/webdesignnew.png" class="responsive-img" alt="">
+                    <a class="waves-effect waves-light btn" href="/portfolio/webdesign"
+                        style="background-color: #6E7ECB; border-radius: 5px;">more</a>
+
                 </div>
-                <div class="col s12 l6 border-text center">
-                    </br>
-                    </br>
-                    </br>
-                    My name is Megan Shaw. I've worked professionally in digital marketing for 5 years.
-                    </br>
-                    </br>
-                    I've worked in digital marketing agencies, lead marketing teams, and worked with clients around
-                    the United States; in dozens of industries.
-                    </br>
-                    </br>
-                    Standing out online is hard, but the rules are few.
-                    </br>
-                    </br>
-                    Together we can add the
-                    color back into your marketing and gain the ROI, traffic, or activity you've been seeking.
+                <div class="col m12 l6 center">
+                    <img src="images/portfolio/contentwritingnew.png" class="responsive-img" alt="">
+                    <a class="waves-effect waves-light btn" href="portfolio/content"
+                        style="background-color: #6E7ECB; border-radius: 5px;">more</a>
                 </div>
             </div>
-        </div>
-    </div>
+            <div class="row">
+                <div class="col m12 l6 center">
+                    <img src="images/portfolio/webdevnew.png" class="responsive-img" alt="">
+                    <a class="waves-effect waves-light btn" href="/portfolio/webdev"
+                        style="background-color: #6E7ECB; border-radius: 5px;">more</a>
 
-    <!-- how can I help section -->
+                </div>
+                <div class="col m12 l6 center">
+                    <img src="images/portfolio/leadsnew.png" class="responsive-img center" alt="">
+                    <a class="waves-effect waves-light btn" href="/portfolio/leads"
+                        style="background-color: #6E7ECB; border-radius: 5px;">more</a>
+                </div>
 
-    <div class="container how-help">
-        <div class="section">
+            </div>
+            <!-- 
             <div class="row">
                 <div class="col s12 center">
-                    <img class="responsive-img" src="images/howcanhelp.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- buttons desktop -->
-
-    <div class="container">
-        <div class="section">
-            <div class="row">
-                <div class="col s12">
+                    <img src="images/graphicdesign.png" class="responsive-img" alt="">
                     <center>
-                        <div class="card hoverable card-1">
-                            I NEED MORE QUALIFIED LEADS.
-                        </div>
+                        <a class="waves-effect waves-light btn center" href="/portfolio/webdev"
+                            style="background-color: #6E7ECB; border-radius: 5px;">more</a>
                     </center>
-                    <div class="col s12">
-                        <center>
-                            <div class="card hoverable card-2">
-                                I NEED MORE ENGAGING CONTENT.
-                            </div>
-                        </center>
-                    </div>
-                    <div class="col s12">
-                        <center>
-                            <div class="card hoverable card-3">
-                                I NEED A NEW WEBSITE.
-                            </div>
-                        </center>
-                    </div>
-                    <div class="col s12">
-                        <center>
-                            <div class="card hoverable card-4">
-                                I NEED HELP WITH MY BRAND.
-                            </div>
-                        </center>
-                    </div>
-                    <div class="col s12">
-                        <center>
-                            <div class="card hoverable card-5">
-                                I NEED HELP WITH SEO.
-                            </div>
-                        </center>
-                    </div>
-                    <div class="col s12">
-                        <center>
-                            <div class="card hoverable card-6">
-                                I NEED... A LOT OF THINGS.
-                            </div>
-                        </center>
-                    </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
+
+
 
 
 

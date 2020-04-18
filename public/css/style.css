@@ -5,7 +5,7 @@ body {
 .nav-home {
     padding: 1rem;
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 2rem;
     float: left;
     color: black;
@@ -14,7 +14,7 @@ body {
 .nav-right {
     padding: 1rem;
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 2rem;
     float: right;
     color: black;
@@ -35,7 +35,7 @@ body {
 
 .border-text {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.3rem;
 }
 
@@ -119,4 +119,90 @@ body {
     margin-top: 3rem;
     position: relative;
     background: url('../images/footer-1-06.png') no-repeat center center/cover;
+}
+
+.footer-2 {
+    margin-top: 3rem;
+    position: relative;
+    background: url('../images/footer-leadgen.png') no-repeat center center/cover;
+}
+
+.footer-3 {
+    margin-top: 3rem;
+    position: relative;
+    background: url('../images/content/content-footer.png') no-repeat center center/cover;
+}
+
+.footer-4 {
+    margin-top: 3rem;
+    position: relative;
+    background: url('../images/footer-3.png') no-repeat center center/cover;
+}
+
+.footer-5 {
+    margin-top: 3rem;
+    position: relative;
+    background: url('../images/webdev/webdevfooter.png') no-repeat center center/cover;
+}
+
+.footer-6 {
+    margin-top: 3rem;
+    position: relative;
+    background: url('../images/about/about-footer.png') no-repeat center center/cover;
+}
+
+.header-1 {
+    background: url('../images/footer-1-06.png') no-repeat center center/cover;
+    padding: 2rem;
+    height: 40vh;
+}
+
+.header-text-desktop {
+    font-family: 'Oswald', 'sans-serif';
+    font-weight: 900;
+    text-align: center;
+    font-size: 11rem;
+}
+
+.header-text-tablet {
+    font-family: 'Oswald', 'sans-serif';
+    font-weight: 900;
+    text-align: center;
+    font-size: 7rem;
+}
+
+.header-text-mobile {
+    font-family: 'Oswald', 'sans-serif';
+    font-weight: 900;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.portfolio-container {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+h2 {
+    font-family: 'Oswald', 'sans-serif';
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Lato', 'sans-serif;';
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+li {
+    font-family: 'Lato', 'sans-serif;';
+    font-weight: 300;
+    font-size: 1.2rem;
+
+}
+
+.leads-page {
+    font-family: 'Lato', 'sans-serif;';
+    font-weight: 300;
+    font-size: 1rem;
 }

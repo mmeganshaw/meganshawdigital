@@ -9,5 +9,5 @@ app.use(express.static(__dirname + "/public"));
 require("./routes/index.js")(app);
 
 app.listen(PORT, function () {
-    console.log("Server listening on port" + PORT)
+    console.log("Server listening on port " + PORT)
 })
